@@ -1,0 +1,44 @@
+var technicalSpecifications = {
+    'dimensions':{
+        'over_all_length_in_mm':3500,
+        'over_all_width_in_mm':1600,
+        'over_all_height_in_mm':1490,
+        'wheelbase_in_mm':2360,
+        'track_width':{'front_in_mm':1405,'rear_in_mm':1400},
+        'minimum_turning_radius_in_m':4.5,
+        'minimum_ground_clearance_in_mm':170},
+    'capacities':
+    {
+        'seating_capacity_in_persons':5,
+        'fuel_tank_capacity_in_litres':35
+    },
+    'engine':
+    {
+        'type':'KB-Series',
+        'number_of_cylinders':5,
+        'number_of_valves':12,
+        'capacity_in_cc/cm3':998,
+        'boreXstroke_in_mm':'73.0*79.5',
+        'compression_ratio':'10:1',
+        'maximum_power_in_ps/rpm':'67/6,200',
+        'maximum_torque_in_Nm/rpm':'90/3,500',
+        'fuel_distribution':'Multipoint Injection'
+    },
+    'transmission':
+    {
+        'type':'5-speed MT'
+    },
+    'chasis':
+    {
+        'steering':'Rack and Pinion,Power assisted',
+        'Brakes':{'front':'Ventilated disk','rear':'drums'},
+        'suspension':{'front':'Ventilated disk','rear':'drums'},
+        'shock_absorbers':'Gas filled',
+        'tyre':{'tubeless':'150/80R13'}
+    },
+    'weights':
+    {
+        'kerb_weight_in_kg':'860-880',
+        'gross_vehicle_weight_in_kg':1320
+    }
+}
